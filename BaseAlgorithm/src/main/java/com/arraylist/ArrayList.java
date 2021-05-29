@@ -1,7 +1,6 @@
 package com.arraylist;
 
 import java.util.Arrays;
-import org.junit.Test;
 
 public class ArrayList {
 
@@ -63,8 +62,7 @@ public class ArrayList {
 		builder.setCharAt((builder.length()-1), ']');
 		return builder.toString();
 	}
-	
-	@Test
+
 	public void test() {
 		ArrayList arrayList = new ArrayList();
 		arrayList.add("aaa");

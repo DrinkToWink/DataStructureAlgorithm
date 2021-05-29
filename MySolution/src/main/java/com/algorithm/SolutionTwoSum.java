@@ -1,6 +1,5 @@
 package com.algorithm;
 
-import org.junit.Test;
 
 import java.util.HashMap;
 
@@ -10,7 +9,6 @@ import java.util.HashMap;
  */
 public class SolutionTwoSum {
 
-    @Test
     public void test() {
         int[] nums = {2, 7, 11, 15};
         int target = 9;

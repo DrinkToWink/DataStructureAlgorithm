@@ -1,6 +1,5 @@
 package com.hashmap;
 
-import org.junit.Test;
 
 public class HashMap {
 	
@@ -71,8 +70,7 @@ public class HashMap {
 		stringBuilder.setCharAt(stringBuilder.length()-1, '}');
 		return stringBuilder.toString();
 	}
-	
-	@Test
+
 	public void test() {
 		HashMap map = new HashMap();
 		map.put(8, "AA");

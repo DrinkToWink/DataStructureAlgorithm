@@ -1,6 +1,5 @@
 package com.algorithm;
 
-import org.junit.Test;
 
 /**
  * @author: 一个小菜逼
@@ -11,7 +10,6 @@ import org.junit.Test;
  */
 public class SolutionReverse {
 
-    @Test
     public void reverse() {
         int x = 236469;
         long result = 0;

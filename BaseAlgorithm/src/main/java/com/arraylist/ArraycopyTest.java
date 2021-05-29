@@ -1,7 +1,5 @@
 package com.arraylist;
 
-import org.junit.Test;
-
 import java.util.Arrays;
 
 /**
@@ -13,7 +11,6 @@ public class ArraycopyTest {
     /**
      * System.arraycopy()方法的复制特点
      */
-    @Test
     public void ArraycopyTest(){
         int[] a=new int[10];
         a[0]=0;
@@ -33,7 +30,6 @@ public class ArraycopyTest {
      * 扩容原数组为指定长度，是同一个数组，里面的内容不变，只是长度变了
      * 底层也是调用了System.arraycopy()方法
      */
-    @Test
     public void arrayscopyOfTest(){
         int[] a=new int[3];
         a[0]=0;
